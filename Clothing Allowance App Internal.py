@@ -18,3 +18,11 @@ class Child:
 		print("Allowance: ${}" .format(self.allowance))
 		print("Bonus cost: ${}" .format(self.bonus_cost))
 		print("-----------------")
+
+# Puts children info in, and prints it.
+child1 = Child("Nikau", 300, 50)
+child1.get_details()
+child2 = Child("Hana", 300, 50)
+child2.get_details()
+child3 = Child("Tia", 300, 50)
+child3.get_details()
